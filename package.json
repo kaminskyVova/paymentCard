@@ -1,0 +1,8 @@
+{
+  "name": "payment",
+  "scripts": {},
+  "author": "Vladimir Kaminsky",
+  "dependencies": {
+    "redom": "^3.27.3"
+  }
+}
