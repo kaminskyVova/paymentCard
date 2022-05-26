@@ -18,7 +18,7 @@ const createElms = () => {
     'div',
     { className: 'form__input-wrap form__input-wrap_holder' },
     el('label', { className: 'form__label form__holder-label' }, 'Card Holder'),
-    el('input', { className: 'input input__holder' })
+    el('input', { className: 'input input__holder' }, { maxLength: 25 })
   );
 
   const inputNumberWrapper = el(
